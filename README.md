@@ -24,5 +24,5 @@ Try `python train.py --log_dir ./logs --a_only False --gpu 1 --max_epochs 15 --l
 The code in this repository is CC BY 4.0 licensed, as found in the LICENSE file.
 
 ## Acknowledgements
-Parts of the code are adapted from [Co-Separation](https://github.com/rhgao/co-separation), [Lipreading using Temporal Convolutional Networks](https://github.
-com/mpc001/Lipreading_using_Temporal_Convolutional_Networks) and [VisualVoice](https://github.com/facebookresearch/VisualVoice).
+Parts of the code are adapted from 
+[Co-Separation](https://github.com/rhgao/co-separation), [Lipreading using Temporal Convolutional Networks](https://github.com/mpc001/Lipreading_using_Temporal_Convolutional_Networks) and [VisualVoice](https://github.com/facebookresearch/VisualVoice).
