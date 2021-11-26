@@ -8,10 +8,8 @@ USE_GPU = True
 SEED = 16108
 
 # Dataset Params
-DATA_ROOT = "/home/mgo/Documents/Projects/AVSpeechSeparation/data/"
-GRID_ROOT = "/media/mgo/Backup/sorted/data/GRID/Raw/"  #
-gridchime3_prefix = "GRID_CHIME3"
-GRID_CHIME3_ROOT = join(DATA_ROOT, "%s/utterances/" % gridchime3_prefix)
+GRID_ROOT = "./data/GRID/Raw/"
+GRID_CHIME3_ROOT = "./data/GRID_CHIME3/utterances/"
 
 # GRID Meta
 GRID_EXCEPTIONS = [15, 8, 12]
@@ -21,7 +19,7 @@ GRID_SPEAKERS = GRID_MALE_SPEAKERS + GRID_FEMALE_SPEAKERS
 
 # Visual Data Params
 nb_channels, img_height, img_width = 1, 88, 88
-GRID_IMAGES_ROOT_sq = "/home/mgo/Documents/Projects/AVSpeechSeparation/data/GRID/lip_sq_bg/"
+GRID_IMAGES_ROOT_sq = "./data/GRID/lip_sq_bg/"
 
 # Fourier Transform Params
 stft_size = 511
